@@ -1,5 +1,6 @@
 // SeachBar.js
-import { useState } from 'react'
+import React, { useState } from 'react'
+
 
 function SeachBar(props) {
     let [searchTerm, setSearchTerm] = useState('')
