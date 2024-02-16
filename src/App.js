@@ -5,6 +5,7 @@ import Gallery from './components/Gallery.js';
 import SearchBar from './components/Searchbar.js'; 
 import ArtistView from './components/ArtistView.js'; 
 import AlbumView from './components/AlbumView.js'; 
+
 function App() { 
 	let [message, setMessage] = useState('Seach for music') 
 	let [search, setSearch] = useState('')
